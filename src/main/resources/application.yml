@@ -1,0 +1,16 @@
+management:
+  security:
+    enabled: true
+    
+spring:
+  resources:
+    chain:
+      enabled: true
+
+security:
+  authentication:
+    jwt:
+      secret-key: zversal
+      secret-key2: zversal2
+      token-validity: 600000     
+     
